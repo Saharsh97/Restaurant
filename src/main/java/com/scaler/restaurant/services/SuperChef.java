@@ -4,8 +4,8 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 @Service
-//@Primary
 public class SuperChef implements Chef{
+
     @Override
     public String cookKadhaiPaneer() {
         return "tasty kadhai Paneer cooked by SuperChef";
